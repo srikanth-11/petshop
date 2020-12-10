@@ -74,7 +74,7 @@ var requirement = /** @class */ (function () {
     };
     return requirement;
 }());
-var myenquirey = new requirement;
+var myenquirey = new requirement();
 console.log("The Count Of Pets in the store", myenquirey.getPetsCount(arrayofanimals));
 console.log("The List Of Pets available for adoption", myenquirey.listofanimalsforadoption(arrayofanimals));
 console.log("The Count Of Pets in ths store available for adoption", myenquirey.getPetsCount(animalsforadoption));
